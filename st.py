@@ -23,7 +23,7 @@ from bin import get_bin_info
 from sub import get_premium_status
 
 # Use the same Stripe checker as mst.py
-from mass_gates.stripe import check_gate
+from stripe import check_gate
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # GIF REACTIONS

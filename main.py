@@ -23,8 +23,8 @@ from gate import (
 )
 from fb import router as fb_router, start_cleanup_tasks, setup_feedback_handler, feedback_cmd
 from stats import stats_command
-from tools.binn import binn_command
-from tools.gen import gen_command, genhelp_command, regenerate_cards_callback
+from binn import binn_command
+from gen import gen_command, genhelp_command, regenerate_cards_callback
 from cmds import router as cmds_router, cmds_command
 from broad import broad_command, router as broad_router
 from ban import ban_command, unban_command, BanMiddleware, router as ban_router

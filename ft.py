@@ -22,7 +22,7 @@ from database import is_gate_enabled, get_user_credits, update_credits, get_db_c
 from bin import get_bin_info
 from sub import get_premium_status
 # Updated to import from the /gates subdirectory
-from gates.fatzebra import process_fatzebra_card
+from fatzebra import process_fatzebra_card
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # GIF REACTIONS

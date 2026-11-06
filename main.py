@@ -43,67 +43,67 @@ from proxy import (
     global_proxy_manager,
 )
 
-from gates.st import st_command
-from gates.sh import sh_command, sh_callback_handler
-from gates.sp import sp_command
-from gates.pg import pg_command
-from gates.hc import hc_command
-from gates.pf import pf_command
-from gates.vbv import vbv_command
-from gates.ft import ft_command
-from gates.bl import bl_command
-from gates.pp import pp_command
-from gates.at import at_command
-from gates.pw import pw_command
-from gates.rz import rz_command
-from gates.pyu import pyu_command
-from gates.py import py_command
-from gates.chk import chk_command
-from gates.ch import ch_command
-from gates.sk import sk_command
-from gates.b3 import b3_command
-from gates.nmi import nmi_command
-from gates.nmi2 import nmi2_command
-from gates.cl import cl_command
-from autohitters.stco import stco_command, stco_callback_handler
-from autohitters.whop import router as whop_router, whop_command, whop_callback_handler
-from autohitters.jio import router as jio_router, jio_command, jio_callback_handler
-from autohitters.mpin import router as mpin_router
+from st import st_command
+from sh import sh_command, sh_callback_handler
+from sp import sp_command
+from pg import pg_command
+from hc import hc_command
+from pf import pf_command
+from vbv import vbv_command
+from ft import ft_command
+from bl import bl_command
+from pp import pp_command
+from at import at_command
+from pw import pw_command
+from rz import rz_command
+from pyu import pyu_command
+from py import py_command
+from chk import chk_command
+from ch import ch_command
+from sk import sk_command
+from b3 import b3_command
+from nmi import nmi_command
+from nmi2 import nmi2_command
+from cl import cl_command
+from stco import stco_command, stco_callback_handler
+from whop import router as whop_router, whop_command, whop_callback_handler
+from jio import router as jio_router, jio_command, jio_callback_handler
+from mpin import router as mpin_router
 
-from mass_gates.msh import (
+from msh import (
     router as msh_router, MshStopCallback, MshResultCallback,
     handle_stop_callback as msh_stop_handler,
     handle_result_callback as msh_result_handler,
 )
-from mass_gates.mpp import (
+from mpp import (
     router as mpp_router, MppStopCallback, MppResultCallback,
     handle_stop_callback as mpp_stop_handler,
     handle_result_callback as mpp_result_handler,
 )
-from mass_gates.mrz import (
+from mrz import (
     router as mrz_router, MrzStopCallback, MrzResultCallback,
     handle_stop_callback as mrz_stop_handler,
     handle_result_callback as mrz_result_handler,
     mrz_command
 )
-from mass_gates.mchk import (
+from mchk import (
     router as mchk_router, MchkStopCallback, MchkResultCallback,
     handle_stop_callback as mchk_stop_handler,
     handle_result_callback as mchk_result_handler,
 )
-from mass_gates.msk import (
+from msk import (
     router as msk_router, MskStopCallback, MskResultCallback,
     handle_stop_callback as msk_stop_handler,
     handle_result_callback as msk_result_handler,
     msk_command,
 )
-from mass_gates.mst import (
+from mst import (
     router as mst_router, MstStopCallback, MstResultCallback,
     handle_stop_callback as mst_stop_handler,
     handle_result_callback as mst_result_handler,
     mst_command
 )
-from mass_gates.sitechk import (
+from sitechk import (
     checksite_command, seturl_command, siteall_command,
     removeall_command, dedupe_command, proxyinfo_command, resetproxy_command
 )
